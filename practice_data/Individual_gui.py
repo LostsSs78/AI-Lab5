@@ -1,3 +1,4 @@
+
 from __future__ import annotations
 
 from datetime import datetime
@@ -23,7 +24,7 @@ GRADE_MIN = 2
 GRADE_MAX = 5
 
 
-class StudentApp:
+class IndividualApp:
     """Tkinter application for managing student performance data."""
 
     def __init__(self, root: tk.Tk) -> None:
@@ -462,7 +463,7 @@ class StudentApp:
 def main() -> None:
     """Run the Tkinter application."""
     root = tk.Tk()
-    app = StudentApp(root)
+    app = IndividualApp(root)
     root.mainloop()
 
 
